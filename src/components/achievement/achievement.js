@@ -41,7 +41,7 @@ const data = [
     {
         avatar: AVTR1,
         year: '2014',
-        title: 'Winner, ALX New School Challenge',
+        title: 'Winner, AIX New School Challenge',
         post: 'Won a group competition for innovation and originality of thought.'
     }
 ];

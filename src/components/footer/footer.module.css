@@ -9,7 +9,7 @@
 }
 
 .footer a {
-    color: navajowhite;
+    color: white;
 }
 
 .footer_logo {
@@ -51,7 +51,7 @@
 
 .footer_copyright {
     margin-bottom: 4rem;
-    color: navajowhite;
+    color:white;
 }
 
 /* Media Query for Small Devices */

@@ -13,7 +13,7 @@ export default function Nav() {
                 <HashLink to="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>Experience</HashLink>
                 <HashLink to="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}>Skills</HashLink>
                 <li><HashLink smooth to="#project" className="hover:text-gray-300">Projects</HashLink></li>
-                <li><HashLink smooth to="#post" className="hover:text-gray-300">Posts</HashLink></li>
+                <li><HashLink smooth to="#posts" className="hover:text-gray-300">Posts</HashLink></li>
                 <li><HashLink smooth to="#contact" className="hover:text-gray-300">Contact</HashLink></li>
             </nav>
         </div>
