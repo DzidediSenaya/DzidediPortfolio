@@ -6,7 +6,7 @@
 }
 
 nav {
-    background: rgb(0, 0, 0, 0.3);
+    background: rgba(13, 82, 112, 0.589);
     width: max-content;
     padding: 0.7rem 1.7rem;
     z-index: 2;
@@ -26,11 +26,11 @@ nav a{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: azure ;
+    color: azure !important ;
 }
 
 nav a:hover{
-    background: rgb(0,0, 0, 0.4)
+    background: rgb(156, 215, 238);
 }
 
 nav a.active{

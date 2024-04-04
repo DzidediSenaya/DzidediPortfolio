@@ -1,6 +1,6 @@
 .category_btn{
     background:var(--color-bg-variant);
-    color: white;
+    color: rgb(0, 65, 90) !important;
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -10,7 +10,7 @@
 }
 
 .category_btn:hover{
-    color: white;
+    color: rgb(0, 65, 90) !important;
 }
 
 .post_thumbnail
@@ -78,10 +78,10 @@
 
 
 input,textarea,select{ padding: 0.8rem 1.4rem;
-    background-color: green;
+    background-color: rgb(0, 65, 90) !important;
     border-radius: 2rem;
     resize: none;
-    color: white;
+    color: rgb(0, 65, 90) !important;
 
 }
 

@@ -8,9 +8,7 @@ import Experience from './pages/experiencePage.js' ;
 import Posts from './components/posts/posts.js';
 import Projects from './components/project/project.js';
 import Skills from './components/skills/skills.js';
-import Admin from './pages/admin.js';
-import './index.css'
-import Singlepost from './components/singlepost/singlepost.js';
+import './index.css';
 
 export default function App() {
   return (
@@ -25,8 +23,6 @@ export default function App() {
           <Route path='/posts' element={<Posts />} />
           <Route path='/project' element={<Projects />} />
           <Route path='/skills' element={<Skills />} />
-          <Route path='/admin' element={<Admin />} />
-          <Route path='/singlepost' element={<Singlepost/>}/>
         </Routes>
       </BrowserRouter>
     </div>

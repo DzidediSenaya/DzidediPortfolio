@@ -1,17 +1,14 @@
 import React from 'react';
 import './about.css';
-import image from '../../assets/c704f923-e595-469a-9e8c-f9137ef31039.jpg'
+import image from '../../assets/GIGI.jpg'
 import { FaAward } from 'react-icons/fa';
-import { FiUser } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
 
 
 
-function About(props) {
+function About() {
     return (
         <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <h1 className="text-center font-bold text-2xl text-sky-900">About Me</h1>
 
 
             <div className='container about__container'>
@@ -22,32 +19,15 @@ function About(props) {
                 </div>
 
                 <div className='about__content'>
-                    <div className='about__cards' >
+                    <div className="py-50 px-50">
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>3+ years working Experience</small>
+                            <p>Full Stack Developer with a strong foundation in C, Python, and JavaScript. Proficient in React framework and adept in version control with Git. Demonstrated capability in creating interactive web applications and command line tools. Passionate about leveraging technology to solve real-world problems.</p>
                         </article>
 
-                        <article className='about__card'>
-                            <FiUser className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>300+ Clients Worldwide</small>
-                        </article>
-
-                        <article className='about__card'>
-                            <VscFolderLibrary className='about__icon' />
-                            <h5>Projects</h5>
-                            <small>80+ completed Projects</small>
-                        </article>
+                       
                     </div>
-                    <p>
-                        Crafting immersive digital experiences through innovative design and flawless functionality."
-
-                        This statement emphasizes your expertise in creating engaging web experiences while highlighting your skills in design and development. It conveys a sense of creativity, technical prowess, and a commitment to delivering high-quality work.
-
-                    </p>
-                    <a href='#contact' className='btn btn-primary text-black'>Let's Talk</a>
+                    <a href='#contact' className='btn text-black'>Let's Talk</a>
                 </div>
             </div>
 

@@ -5,12 +5,12 @@ const Skills = () => {
     return (
         <section id='skills'>
         <div className="mt-4 mb-2">
-                <h4 className="text-3xl text-center mb-8"> My Skills</h4>
-            <div className="grid grid-cols-2 gap-8 max-w-7xl mx-auto px-4 py-8">
+        <h1 className="text-center font-bold text-2xl text-sky-900"> My Skills</h1>
+            <div className="grid grid-cols-2 gap-8 max-w-5xl mx-auto px-4 py-8">
                 {/* Front-end Development */}
-                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:bg-transparent hover:border-blue-400">
-                    <div className="bg-blue-500 py-4 rounded-t-lg">
-                        <h2 className="text-white text-lg font-semibold text-center">Front-end Development</h2>
+                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:border-blue-400">
+                    <div className="bg-white py-4 rounded-t-lg">
+                        <h2 className="text-blue-900 text-lg font-semibold text-center">Front-end Development</h2>
                     </div>
                     <ul className="p-4">
                         <li className="flex items-start mb-4">
@@ -31,8 +31,8 @@ const Skills = () => {
                 </article>
 
                 {/* Back-end Development */}
-                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:bg-transparent hover:border-blue-400">
-                    <div className="bg-blue-500 py-4 rounded-t-lg">
+                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:border-blue-400">
+                    <div className="bg-blue-900 py-4 rounded-t-lg">
                         <h2 className="text-white text-lg font-semibold text-center">Back-end Development</h2>
                     </div>
                     <ul className="p-4">
@@ -47,53 +47,56 @@ const Skills = () => {
                             <BiCheck className="text-blue-500 mt-1 mr-2" />
                             <div>
                                 <h3 className="text-white text-lg font-semibold">Database Management</h3>
-                                <p className="text-gray-300 text-sm">Skilled in designing and optimizing databases using relational databases like MySQL and NoSQL databases like MongoDB.</p>
+                                <p className="text-gray-300 text-sm">Skilled in designing and optimizing databases using MongoDB.</p>
                             </div>
                         </li>
                     </ul>
                 </article>
 
-                {/* UI/UX Design */}
-                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:bg-transparent hover:border-blue-400">
-                    <div className="bg-blue-500 py-4 rounded-t-lg">
-                        <h2 className="text-white text-lg font-semibold text-center">UI/UX Design</h2>
-                    </div>
-                    <ul className="p-4">
-                        <li className="flex items-start mb-4">
-                            <BiCheck className="text-blue-500 mt-1 mr-2" />
-                            <div>
-                                <h3 className="text-white text-lg font-semibold">Adobe XD</h3>
-                                <p className="text-gray-300 text-sm">Proficient in creating wire frames, prototypes, and visual designs using Adobe XD to deliver intuitive and user-friendly interfaces.</p>
-                            </div>
-                        </li>
-                        <li className="flex items-start">
-                            <BiCheck className="text-blue-500 mt-1 mr-2" />
-                            <div>
-                                <h3 className="text-white text-lg font-semibold">Responsive Design</h3>
-                                <p className="text-gray-300 text-sm">Experienced in implementing responsive design principles to ensure optimal user experience across various devices and screen sizes.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </article>
+              {/* UI/UX Design */}
+<article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:border-blue-400">
+    <div className="bg-blue-900 py-4 rounded-t-lg">
+        <h2 className="text-white text-lg font-semibold text-center">UI/UX Design</h2>
+    </div>
+    <ul className="p-4 mb-4">
+        <li className="flex items-start">
+            <BiCheck className="text-blue-500 mt-1 mr-2 mb-1" />
+            <div>
+                <h3 className="text-white text-lg font-semibold">Responsive Design</h3>
+                <p className="text-gray-300 text-sm mb-4">Experienced in implementing responsive design principles to ensure optimal user experience across various devices and screen sizes.</p>
+            </div>
+        </li>
 
-                {/* DevOps */}
-                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:bg-transparent hover:border-blue-400">
-                    <div className="bg-blue-500 py-4 rounded-t-lg">
-                        <h2 className="text-white text-lg font-semibold text-center">DevOps</h2>
+        <li className="flex items-start">
+            <BiCheck className="text-blue-500 mt-1 mr-2" />
+            <div>
+                <h3 className="text-white text-lg font-semibold">Interactive Prototyping</h3>
+                <p className="text-gray-300 text-sm">Experienced in creating interactive prototypes and wireframes using tools like Figma to visualize design concepts and gather feedback from stakeholders. Capable of refining designs based on user feedback and usability testing results to optimize the user experience.</p>
+            </div>
+        </li>
+    </ul>
+</article>
+
+
+                
+                {/* Other Skills */}
+                <article className="bg-gray-900 rounded-lg border border-blue-500 transition duration-400 ease-in-out hover:border-blue-400">
+                    <div className="bg-white py-4 rounded-t-lg">
+                        <h2 className="text-blue-900 text-lg font-semibold text-center">Soft Skills</h2>
                     </div>
                     <ul className="p-4">
                         <li className="flex items-start mb-4">
                             <BiCheck className="text-blue-500 mt-1 mr-2" />
                             <div>
-                                <h3 className="text-white text-lg font-semibold">CI/CD</h3>
-                                <p className="text-gray-300 text-sm">Skilled in setting up Continuous Integration and Continuous Deployment pipelines using tools like Jenkins and GitLab CI/CD.</p>
+                                <h3 className="text-white text-lg font-semibold">Teamwork</h3>
+                                <p className="text-gray-300 text-sm">Collaborative and adaptable team player, dedicated to fostering a cohesive environment and achieving collective goals. Possesses a strong communication skill set to facilitate effective collaboration among team members, ensuring project success and synergy.</p>
                             </div>
                         </li>
                         <li className="flex items-start">
                             <BiCheck className="text-blue-500 mt-1 mr-2" />
                             <div>
-                                <h3 className="text-white text-lg font-semibold">Containerization</h3>
-                                <p className="text-gray-300 text-sm">Proficient in containerization using Docker to package applications and deploy them across different environments consistently.</p>
+                                <h3 className="text-white text-lg font-semibold">Critical Thinking</h3>
+                                <p className="text-gray-300 text-sm">Equipped with strong analytical skills and a solution-oriented approach, capable of effectively evaluating challenges and devising strategic solutions. Demonstrated ability to think critically, assess situations from multiple perspectives, and make informed decisions to overcome obstacles and achieve desired outcomes.</p>
                             </div>
                         </li>
                     </ul>

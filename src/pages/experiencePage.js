@@ -29,10 +29,10 @@ function Experience() {
     // Previous static frontend skills
     const previousFrontendSkills = [
         { name: 'HTML', level: 'Experienced' },
-        { name: 'CSS', level: 'Intermediate' },
-        { name: 'JavaScript', level: 'Experienced' },
+        { name: 'CSS', level: 'Experienced' },
+        { name: 'JavaScript', level: 'Intermediate' },
         { name: 'React JS', level: 'Experienced' },
-        { name: 'Tailwind', level: 'Experienced' }
+        { name: 'Tailwind', level: 'Intermediate' }
     ];
 
     // Previous static backend skills
@@ -40,13 +40,14 @@ function Experience() {
         { name: 'Node JS', level: 'Experienced' },
         { name: 'MongoDB', level: 'Intermediate' },
         { name: 'MySQL', level: 'Basic' },
-        { name: 'Python', level: 'Basic' }
+        { name: 'Python', level: 'Intermediate' },
+        { name: 'C', level: 'Intermediate' }
     ];
 
     return (
         <section id='experience'>
-            <h5>Skills I have</h5>
-            <h2>My Experience</h2>
+         <h1 className="text-center font-bold text-2xl text-sky-900 mb-4">My Experience</h1>
+     
 
             <div className='container experience__container'>
                 <div className='experience__frontend'>

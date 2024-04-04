@@ -22,18 +22,9 @@ function Posts() {
         {
             id: 1,
             category: "Article",
-            title: "Static Post 1",
-            content: "This is a static post.",
-            author: "Static Author",
-            date: "Mar 1, 2024",
-            readingTime: "3 min read"
-        },
-        {
-            id: 2,
-            category: "Article",
-            title: "Static Post 2",
-            content: "Another static post.",
-            author: "Static Author",
+            title: "What Happens When You Type www.into a Web Browser",
+            content: "Read here: https://www.linkedin.com/in/dzidedi-senaya-8432bb6b/recent-activity/articles/",
+            author: "Dzidedi Senaya",
             date: "Mar 5, 2024",
             readingTime: "4 min read"
         }
@@ -41,7 +32,7 @@ function Posts() {
 
     return (
         <section id='Posts'>
-            <h5>Posts</h5>
+           <h1 className="text-center font-bold text-2xl text-sky-900 mb-2">Posts</h1>
             <section className="featured">
                 <div className="featured_container">
                     <div className="post_thumbnail">
@@ -50,13 +41,13 @@ function Posts() {
 
                     <div className="post_info">
                         <a href="#" className="category_btn"></a>
-                        <h2 className="post_title"><a href="post.html">TITLE</a></h2>
-                        <p className="post_body">body body body body body</p>
+                        <h2 className="post_title">What Happens When You Type www.into a Web Browser<a href="https://www.linkedin.com/in/dzidedi-senaya-8432bb6b/recent-activity/articles/ #target=blank" ></a></h2>
+                        <p className="post_body"></p>
                         <div className="post_author">
                             <div className="post_author-avatar" ><img src={blog} alt="Author Avatar" /></div>
                         </div>
                         <div className="post_author-info"></div>
-                        <h5>by kevin</h5>
+                        <h5>by Dzidedi</h5>
                         <small>june 3rd 2022 -7-23</small>
                     </div>
                 </div>

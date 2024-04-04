@@ -1,56 +1,37 @@
-import { Link } from "react-router-dom"
-import pro from '../../assets/portfolio1.jpg'
+import { Link } from "react-router-dom";
+import dziko from '../../assets/f3.png';
+import dziko1 from '../../assets/ecologo1.png';
+import car from '../../assets/CARPORT.mp4';
 
+export default function Projects() {
+    return (
+        <>
+            <section id="project">
+                <h1 className="text-center font-bold text-2xl text-sky-900 mb-4"> Recent Projects</h1>
 
-export default function Projects (){
-    return(
-<>
-<section id="project">
-<h1 className="text-center font-bold text-2xl">Projects</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 p-10 text-center gap-10">
+                    <div className="shadow-2xl bg-sky-400 p-10">
+                        <img src={dziko} className="w-32" />
+                        <h2>Dziko App</h2>
+                        <Link to="https://github.com/DzidediSenaya/dziko-app" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
+                        <Link to="https://dziko-app.vercel.app/" target="_blank"  className="bg-sky-300 text-black p-1">Live Demo</Link>
+                    </div>
 
-<div className="grid grid-cols-1 md:grid-cols-3 p-10 text-center gap-10">
-    <div className="shadow-2xl bg-slate-950 p-10">
-        <img src={pro} className="w-32" />
-        <h2>Name of project</h2>
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="https://github.com/lyril-sly/Landing-page.git" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"><Link to="">Live Demo</Link></button>
-    </div>
-    <div className="shadow-2xl text-center bg-slate-950 p-10">
-        <img src={pro} className="w-32 text-center"/>
-        <h2>Name of Project</h2>
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"><Link to="">Live Demo</Link></button>
-    </div>
-    <div className="shadow-2xl bg-slate-950 p-10">
-    <img src={pro} className="w-32" />
-        <h2>Name of Project</h2>
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"> <Link to="">Live Demo</Link></button>
-    </div >
-    <div className="shadow-2xl p-10 bg-slate-950"> 
-    <img src={pro} className="w-32" />
-        <h2>Name of Project</h2>
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"><Link to="">Live Demo</Link></button>
-    </div>
-    <div className="shadow-2xl p-10 bg-slate-950">
-    <img src={pro} className="w-32" />
-        <h2>Name of Project</h2>
-        <div className="p-1 text-center">
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"><Link to="">Live Demo</Link></button>
-        </div>
-    </div>
-    <div className="shadow-2xl p-10 bg-slate-950">
-    <img src={pro} className="w-32" />
-        <h2>Name of Project</h2>
-        <button className="bg-transparent text-sky-300 border-solid border-2 border-sky-200 rounded p-1"><Link to="" target="_blank">Github</Link></button>
-        <button className="bg-sky-300 text-black p-1"><Link to="">Live Demo</Link></button>
-    </div>
-</div>
-</section>
+                    <div className="shadow-2xl text-center bg-sky-200 p-10">
+                        <img src={dziko1} className="w-32 text-center" />
+                        <h2 className="text-black">Dziko html/css website</h2>
+                        <Link to="https://github.com/DzidediSenaya/DZIKO" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
+                        <Link to="https://dziko.vercel.app/" target="_blank" className="bg-sky-300 text-black p-1">Live Demo</Link>
+                    </div>
 
-</>
-
-    )
+                    <div className="shadow-2xl bg-sky-400 p-10">
+                        <video src={car} className="w-32" />
+                        <h2>Carport Landing Page</h2>
+                        <Link to="https://github.com/DzidediSenaya/Carport_landing_page" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
+                        <Link to="https://carport-landing-page.vercel.app/" target="_blank"  className="bg-sky-300 text-black p-1">Live Demo</Link>
+                    </div>
+                </div>
+            </section>
+        </>
+    );
 }
