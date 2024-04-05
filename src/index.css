@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap');
 
 
 *.{
@@ -12,8 +12,8 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
-    --color-bg-variant:#2c2c6c;
+    --color-bg-image: url('./assets/bg-texture.jpg');;
+    --color-bg-variant: url('./assets/bg-texture.jpg');
     --color-primary: #4db5ff;
     --color-primary-variant:rgba(77, 181, 255, 0.4);
     --color-white: #fff;
