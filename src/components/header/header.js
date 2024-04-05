@@ -10,7 +10,7 @@ export default function Header() {
         <>
             <section id='#'>
                 <Nav />
-                <header className="text-center justify-center px-10">
+                <header className="text-center justify-center px-10 bg:">
                     <div className="text-center px-10">
                         <h5 className="px-5 mt-20 text-2xl text-blue-900">Hi I'm</h5>
                         <h1 className="text-4xl font-bold text-blue-900">Dzidedi Aku Senaya</h1>

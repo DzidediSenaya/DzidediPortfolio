@@ -32,7 +32,7 @@ function Posts() {
 
     return (
         <section id='posts'>
-           <h1 className="text-center font-bold text-2xl text-sky-900 mt-0 mb-0">Posts</h1>
+           <h1 className="text-center font-bold text-2xl text-sky-900 mt-0 mb-0 ">Posts</h1>
             <section className="featured">
                 <div className="featured_container">
                     <div className="post_thumbnail">
