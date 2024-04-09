@@ -8,10 +8,10 @@ import { FaAward } from 'react-icons/fa';
 function About() {
     return (
         <section id='about'>
-            <h1 className="text-center font-bold text-2xl text-sky-900">About Me</h1>
+            <h1 className="text-center font-bold text-2xl text-sky-900 heading">About Me</h1>
 
 
-            <div className='container about__container'>
+            <div className="container about__container sm:mb-2">
                 <div className='about__me'>
                     <div className='about__me-image'>
                         <img src={image} alt='about image' />
@@ -20,7 +20,7 @@ function About() {
 
                 <div className='about__content'>
                     <div className="py-50 px-50">
-                        <article className='about__card'>
+                        <article className="about__card sm:mb-10">
                             <FaAward className='about__icon' />
                             <p>Full Stack Developer with a strong foundation in C, Python, and JavaScript. Proficient in React framework and adept in version control with Git. Demonstrated capability in creating interactive web applications and command line tools. Passionate about leveraging technology to solve real-world problems.</p>
                         </article>

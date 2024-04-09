@@ -42,3 +42,43 @@ transition: var(--transition);
 
 }
 
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .experience__container {
+    grid-template-columns: 1fr; /* Change to one column */
+    gap: 2rem;
+  }
+
+  /* Set the order of frontend and backend sections */
+  .experience__frontend {
+    order: 1; /* Frontend section first */
+    width: 90%;
+    margin-left: 9%;
+  }
+
+  .experience__backend {
+    order: 2; /* Backend section second */
+    width: 90%;
+    margin-left: 9%;
+  }
+
+  /* Display list items vertically */
+  .experience__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Adjust layout of list items */
+  .experience__details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Adjust icon size */
+  .experience__details-icon {
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    width: 20px; /* Set width of icon */
+    height: 20px; /* Set height of icon */
+  }
+}

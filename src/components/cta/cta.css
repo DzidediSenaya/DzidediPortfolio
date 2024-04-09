@@ -1,0 +1,8 @@
+/* header.css */
+
+@media screen and (max-width: 600px) {
+    .download {
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+  }
+  

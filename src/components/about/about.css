@@ -84,3 +84,102 @@
 .btn:hover {
   color:#1d607c !important;
 }
+
+@media screen and (max-width: 768px) {
+
+  .heading{
+margin-top: 2%
+  }
+
+
+  .about__content {
+    order: 2; /* Move the about content section above the about me */
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 2%;
+  }
+
+  #about {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .about__container { 
+    display: grid; 
+    gap: 15%; 
+    padding-top: 50px; 
+    grid-template-columns: 1fr;
+  }  
+  
+  .about__me { 
+    order: 1;
+    width: 80%; 
+    aspect-ratio: 1/1; 
+    border-radius: 2rem; 
+    background: linear-gradient(45deg, #38BDF8, #38BDF8); 
+    display: grid; 
+    place-items: center; 
+    margin-left: 9%;
+  } 
+  
+  .about__me-image { 
+    border-radius: 2rem; 
+    overflow: hidden; 
+    transform: rotate(10deg); 
+    transition: var(--transition); 
+  } 
+  
+  .about__me-image:hover { 
+    transform: rotate(0deg); 
+  } 
+  
+  .about__card { 
+    background: #1f6a8a; 
+    border: 1px solid transparent; 
+    border-radius: 1rem; 
+    padding: 1.5rem; 
+    text-align: center; 
+    transition: var(--transition); 
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 40px;
+  } 
+  
+  .about__icon { 
+    color: var(--color-primary); 
+    font-size: 1.4rem; 
+    margin-bottom: 1rem; 
+  } 
+  
+  .about__card h5 { 
+    font-size: 0.95rem; 
+  } 
+  
+  .about__card small { 
+    font-size: 0.7rem; 
+    color: var(--color-light); 
+  } 
+  
+  .about__content p { 
+    margin: 2rem 0 2.6rem; 
+    color: var(--color-light); 
+  } 
+  
+  .btn {
+    text-align: center;
+    align-items: center;
+    color: white !important; /* Set text color to white */
+    background-color: #1f6a8a;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 20%;
+  }
+  
+  .btn:hover {
+    color:#1d607c !important;
+  }
+  
+}

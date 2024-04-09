@@ -11,22 +11,22 @@ export default function Projects() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 p-10 text-center gap-10">
                     <div className="shadow-2xl bg-sky-400 p-10">
-                        <img src={dziko} className="w-32" />
-                        <h2>Dziko App</h2>
+                        <img src={dziko} className="w-32 mb-5" />
+                        <h2 className="mb-5">Dziko App</h2>
                         <Link to="https://github.com/DzidediSenaya/dziko-app" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
                         <Link to="https://dziko-app.vercel.app/" target="_blank"  className="bg-sky-300 text-black p-1">Live Demo</Link>
                     </div>
 
                     <div className="shadow-2xl text-center bg-sky-200 p-10">
-                        <img src={dziko1} className="w-32 text-center" />
-                        <h2 className="text-black">Dziko html/css website</h2>
+                        <img src={dziko1} className="w-32 text-center mb-5" />
+                        <h2 className="text-black mb-5">Dziko html/css website</h2>
                         <Link to="https://github.com/DzidediSenaya/DZIKO" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
                         <Link to="https://dziko.vercel.app/" target="_blank" className="bg-sky-300 text-black p-1">Live Demo</Link>
                     </div>
 
                     <div className="shadow-2xl bg-sky-400 p-10">
-                        <video src={car} className="w-32" />
-                        <h2>Carport Landing Page</h2>
+                        <video src={car} className="w-32 mb-5" />
+                        <h2 className="mb-5">Carport Landing Page</h2>
                         <Link to="https://github.com/DzidediSenaya/Carport_landing_page" target="_blank" className="bg-transparent text-sky-900 border-solid border-2 border-sky-900 rounded p-1">Github</Link>
                         <Link to="https://carport-landing-page.vercel.app/" target="_blank"  className="bg-sky-300 text-black p-1">Live Demo</Link>
                     </div>

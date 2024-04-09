@@ -46,3 +46,41 @@
 .featured .post_thumbnail {
     height: fit-content;
 }
+
+
+@media screen and (max-width: 768px) {
+    .featured_container {
+      display: block;
+    }
+  
+    .featured .post_thumbnail {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%
+    }
+  
+    .featured .post_info {
+      text-align: center;
+    }
+  
+    .post_thumbnail,
+    .post_info {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  
+    .post_title {
+      text-align: center; /* Center the post title */
+      margin-top: 10px; /* Adjust margin for spacing */
+      font-size: 16px !important;
+      font-weight: 200;
+    }
+  
+    .post_thumbnail {
+      margin-top: 12px; /* Adjust margin for spacing */
+    }
+  }
+  

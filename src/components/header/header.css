@@ -1,7 +1,29 @@
-a:hover{color: rgb(17, 89, 117) !important;
+/* header.css */
 
+a:hover {
+    color: rgb(17, 89, 117) !important;
 }
 
-.download:hover{color:white !important;
+.download:hover {
+    color: white !important;
+}
 
+/* media queries */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 50vh;
+        margin-bottom: 1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        margin-bottom: 1%;
+        margin-top: 2%;
+    }
+     
+    .scroll_down {
+        display: none;
+    }
 }

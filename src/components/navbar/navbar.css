@@ -37,3 +37,22 @@ nav a.active{
     background: rgb(108, 169, 219);
     color: black;
 }
+
+/* CSS for small screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding-top: 10%;
+        width: 30%; /* One-third of the viewport width */
+        /* Adjust other styles as needed */
+    }
+
+    nav {
+        padding: 0.2rem 0.4rem; /* Adjust padding */
+        top: 1rem; /* Adjust top position */
+    }
+
+    nav a {
+        padding: 0.1rem; /* Adjust padding */
+        font-size: 0.6rem;
+    }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/header/header';
-import Navbar from '../components/navbar/navbar.js'
 import Skills from '../components/skills/skills';
 import Footer from '../components/footer/footer';
 import Experience from './experiencePage';
@@ -14,7 +13,6 @@ function Home() {
     return (
         <section id='home'>
             <div>
-                <Navbar />
                 <Header />
                 <About />
                 <Skills />

@@ -1,0 +1,35 @@
+/* Default grid layout for larger screens */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4rem;
+}
+
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    /* Change grid layout to display each section in a single column */
+    .grid {
+        grid-template-columns: 1fr; /* One column */
+        gap: 2rem;
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    /* Adjust the order of the sections */
+    .front-end { 
+        order: 1;
+    }
+
+    .back-end { 
+        order: 2;
+    }
+
+    .ux { 
+        order: 3;
+    }
+
+    .other { 
+        order: 4;
+    }
+}

@@ -1,4 +1,5 @@
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/cv.pdf";
+import './cta.css';
 
 export default function Cta() {
   return (
