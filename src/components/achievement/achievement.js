@@ -9,6 +9,13 @@ import 'swiper/css/scrollbar';
 const data = [
     {
         avatar: AVTR1,
+        title: "Core Extreme Immersion",
+        year: 'April,2024',
+        post: 'Worked on the admin portal of Padi app - a platform for staying up to date with discounts and promotions from various stores.'
+    },
+
+    {
+        avatar: AVTR1,
         title: "Software Engineer, ALX Certified",
         year: 'April,2024',
         post: 'I collaborated on cloning the Airbnb site, which showcased teamwork and adaptability. I tackled programming challenges in Python, C, JavaScript, and CSS, demonstrating problem-solving skills. Additionally, I developed test suites and shell scripts to ensure software reliability. Furthermore, I mastered Vi, Emacs, and Vim for efficient code editing and configured virtual machines for development, optimizing workflows.'
